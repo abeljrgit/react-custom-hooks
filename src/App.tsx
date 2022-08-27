@@ -1,12 +1,11 @@
 import { Fragment } from 'react';
-import { TestPage } from '@pages';
 import { Header, Footer } from '@components';
-
+import { Swapi } from '@pages';
 function App() {
   return (
     <Fragment>
       <Header />
-      <TestPage />
+      <Swapi />
       <Footer />
     </Fragment>
   );
